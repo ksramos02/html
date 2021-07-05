@@ -1,0 +1,166 @@
+
+body {
+    font-family: 'Montserrat';
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #DBAE01;
+}
+
+a:active {
+    color: #DBAE01;
+}
+
+h1 {
+    color: white;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
+
+.navbar {
+    background:black;
+    height: 70px;
+
+}
+
+.navbar .flex {
+    justify-content: space-between;
+    padding: 10px 0 10px;
+    margin: auto;
+}
+
+.navbar li {
+    padding: 10px;
+    margin: auto;
+    list-style: none;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #DBAE01;
+
+}
+
+.navbar ul {
+    display: flex;
+    float: right;
+}
+
+
+.logo {
+    float: left;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto; 
+    overflow: auto;
+    padding: 10px 40px;
+}
+
+.home-section {
+    max-width: 1100px;
+    padding: 180px 82px;
+    overflow: auto;
+    min-height: 100vh;
+}
+
+.profile-img img{
+    width: 20%;
+    float: left;
+}
+
+
+.greetings {
+    font-weight: 600;
+    margin-bottom: -15px;
+}
+
+.fname {
+    color: black;
+    font-size: 80px;
+    font-weight: bolder !important;
+    /* font-family: 'Montserrat' !important; */
+    margin: 0;
+    padding: 0;
+    margin-left: -2px;
+}
+
+.about-section1 {
+    background: black;
+    display: flex;
+    padding-top: 80px;
+    color: white;
+}
+
+.about-section1 img {
+    display: flex;
+    max-width: 20%;
+    margin-left: 80px;
+    object-fit: cover;
+}
+
+.about-section {
+    max-width: 1100px;
+}
+
+
+.about {
+    color: white;
+    font-weight: bolder !important;
+    font-family: 'Montserrat' !important;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+
+.about-section p{
+    margin-top: 10px;
+    margin-left: 42px;
+}
+
+.contact-btn {
+    margin-top: 20px;
+    margin-left: 42px;
+    padding: 15px 40px 15px 40px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: solid 2px #DBAE01;
+    color: #DBAE01;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    background-color: #DBAE01;
+    transition: 0.9s;
+    color: black;
+}
+
+.resume {
+    padding: 80px 0;
+    text-align: center;
+    min-height: 400px;
+
+}
